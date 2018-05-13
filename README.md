@@ -18,5 +18,8 @@ System.out.println("URL: " + newsData.getUrl());
 System.out.println("投稿日: " + newsData.getPublishedAt());
 ```
 
+# 使用させて頂いているコード
+- [rawWithAgent](https://github.com/Sk1er/Levelhead/blob/master/src/main/java/club/sk1er/mods/levelhead/utils/Sk1erMod.java#L284-L307), Author: [Sk1er](https://github.com/Sk1er)
+
 # 必要なライブラリ
 - [Google Gson](https://github.com/google/gson)
