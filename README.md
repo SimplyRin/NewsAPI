@@ -1,5 +1,6 @@
 # NewsAPI
 一部コードをドラさんに頂いております。ありがとうございます。感謝します。
+日本のヘッドラインニュースを一つ取得する API です。
 
 # Usage
 1, NewsAPI キーを [newsapi.org](https://newsapi.org/) から取得
