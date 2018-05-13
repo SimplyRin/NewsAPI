@@ -16,3 +16,6 @@ System.out.println("説明: " + newsData.getDescription());
 System.out.println("URL: " + newsData.getUrl());
 System.out.println("投稿日: " + newsData.getPublishedAt());
 ```
+
+# 必要なライブラリ
+- [Google Gson](https://github.com/google/gson)
