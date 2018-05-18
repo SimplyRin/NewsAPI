@@ -3,6 +3,8 @@
 
 日本のヘッドラインニュースを一つ取得する API です。
 
+GitHub に公開する許可もらいました
+
 # Usage
 1, NewsAPI キーを [newsapi.org](https://newsapi.org/) から取得
 
