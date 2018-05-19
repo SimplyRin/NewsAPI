@@ -5,9 +5,9 @@ package net.simplyrin.newsapi;
  */
 public class NewsData {
 
-	private String author, title, description, url, publishedAt;
+	private String author, title, description, url, publishedAt, newsCountry;
 
-	public NewsData(String author, String title, String description, String url, String publishedAt) {
+	public NewsData(String author, String title, String description, String url, String publishedAt, String newsCountry) {
 		this.author = author;
 		this.title = title;
 		this.description = description;
@@ -33,6 +33,10 @@ public class NewsData {
 
 	public String getPublishedAt() {
 		return this.publishedAt;
+	}
+
+	public String getNewsCountry() {
+		return this.newsCountry;
 	}
 
 }
