@@ -23,7 +23,7 @@ System.out.println("URL: " + newsData.getUrl());
 System.out.println("投稿日: " + newsData.getPublishedAt());
 ```
 
-全て取得場合 (List)
+全て取得 (List)
 ```Java
 NewsApi newsApi = new NewsApi("API_KEY");
 List<NewsData> allNewsData = newsApi.getAllNewsData();
