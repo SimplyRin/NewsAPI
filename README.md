@@ -9,7 +9,7 @@
 1, NewsAPI キーを [newsapi.org](https://newsapi.org/) から取得
 
 2, [Releases](https://github.com/SimplyRin/NewsAPI/releases) から `NewsApi-1.x.jar` またはリポジトリをダウンロードし `NewsApi.java`, `NewsData.java` をインポートします。
-- [NewsApi-1.1.jar](https://github.com/SimplyRin/NewsAPI/releases/download/1.1/NewsApi-1.1.jar)
+- 最新バージョンはこちら: [NewsApi-1.1.jar](https://github.com/SimplyRin/NewsAPI/releases/download/1.1/NewsApi-1.1.jar)
 
 一つだけ取得
 ```Java
