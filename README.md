@@ -31,9 +31,9 @@ List<NewsData> allNewsData = newsApi.getAllNewsData();
 for(NewsData newsData : allNewsData)  {
 	System.out.println("著者: " + newsData.getAuthor());
 	System.out.println("タイトル: " + newsData.getTitle());
-  System.out.println("説明: " + newsData.getDescription());
-  System.out.println("URL: " + newsData.getUrl());
-  System.out.println("投稿日: " + newsData.getPublishedAt());
+	System.out.println("説明: " + newsData.getDescription());
+	System.out.println("URL: " + newsData.getUrl());
+	System.out.println("投稿日: " + newsData.getPublishedAt());
 }
 ```
 
