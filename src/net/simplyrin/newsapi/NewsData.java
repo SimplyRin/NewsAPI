@@ -27,6 +27,7 @@ public class NewsData {
 		this.description = description;
 		this.url = url;
 		this.publishedAt = publishedAt;
+		this.newsCountry = newsCountry;
 	}
 
 	public String getAuthor() {
