@@ -13,7 +13,7 @@ NewsApi#setNewsCountry("国コード(JP,US,CA)")
 # Usage
 1, NewsAPI キーを [newsapi.org](https://newsapi.org/) から取得
 
-2, [Releases](https://github.com/SimplyRin/NewsAPI/releases) から `NewsApi-1.x.jar` またはリポジトリをダウンロードし `net/simplyrin/newsapi/NewsApi.java`, `net/simplyrin/newsapi/NewsData.java` をインポートします。
+2, [Maven](https://github.com/SimplyRin/NewsAPI#Maven), [Releases](https://github.com/SimplyRin/NewsAPI/releases) から `NewsApi-1.x.jar` またはリポジトリをダウンロードし `net/simplyrin/newsapi/NewsApi.java`, `net/simplyrin/newsapi/NewsData.java` をインポートします。
 - 最新バージョンはこちら: [NewsApi-1.1.1.jar](https://github.com/SimplyRin/NewsAPI/releases/download/1.1.1/NewsApi-1.1.1.jar)
 
 一つだけ取得
@@ -42,6 +42,29 @@ for(NewsData newsData : allNewsData)  {
 	System.out.println("投稿日: " + newsData.getPublishedAt());
 	System.out.println("国: " + newsData.getNewsCountry());
 }
+```
+
+# Maven
+- Repository
+```XML
+  <repositories>
+    <repository>
+      <id>net.simplyrin</id>
+      <name>api</name>
+      <url>https://api.simplyrin.net/maven/</url>
+    </repository>
+  </repositories>
+```
+
+- Dependency
+```XML
+  <dependencies>
+    <dependency>
+      <groupId>net.simplyrin.newsapi</groupId>
+      <artifactId>NewsApi</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+  </dependencies>
 ```
 
 # アップデート
