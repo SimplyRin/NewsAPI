@@ -26,6 +26,7 @@ System.out.println("タイトル: " + newsData.getTitle());
 System.out.println("説明: " + newsData.getDescription());
 System.out.println("URL: " + newsData.getUrl());
 System.out.println("投稿日: " + newsData.getPublishedAt());
+System.out.println("国: " + newsData.getNewsCountry());
 ```
 
 全て取得 (List)
@@ -39,6 +40,7 @@ for(NewsData newsData : allNewsData)  {
 	System.out.println("説明: " + newsData.getDescription());
 	System.out.println("URL: " + newsData.getUrl());
 	System.out.println("投稿日: " + newsData.getPublishedAt());
+	System.out.println("国: " + newsData.getNewsCountry());
 }
 ```
 
