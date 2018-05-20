@@ -13,7 +13,7 @@ NewsApi#setNewsCountry("国コード(JP,US,CA)")
 # Usage
 1, NewsAPI キーを [newsapi.org](https://newsapi.org/) から取得
 
-2, [Maven](https://github.com/SimplyRin/NewsAPI#Maven), [Releases](https://github.com/SimplyRin/NewsAPI/releases) から `NewsApi-1.x.jar` またはリポジトリをダウンロードし `net/simplyrin/newsapi/NewsApi.java`, `net/simplyrin/newsapi/NewsData.java` をインポートします。
+2, ページ下部の Maven リポジトリまたは [Releases](https://github.com/SimplyRin/NewsAPI/releases) から `NewsApi-1.x.jar` またはリポジトリをダウンロードし `net/simplyrin/newsapi/NewsApi.java`, `net/simplyrin/newsapi/NewsData.java` をインポートします。
 - 最新バージョンはこちら: [NewsApi-1.1.1.jar](https://github.com/SimplyRin/NewsAPI/releases/download/1.1.1/NewsApi-1.1.1.jar)
 
 一つだけ取得
