@@ -70,7 +70,7 @@ for(NewsData newsData : allNewsData)  {
 # アップデート
 - 1.0: 初期リリース
 - 1.1: API から提供されている全てのニュースを List 系で取得できるように
-- 1.1.1: 1.1 で追加した国設定コードをセットし忘れ事件の修正
+- 1.1.1: 1.1 で追加した国設定コードをセットし忘れ事故の修正
 
 # 使用させて頂いているコード
 - [rawWithAgent](https://github.com/Sk1er/Levelhead/blob/master/src/main/java/club/sk1er/mods/levelhead/utils/Sk1erMod.java#L284-L307), Author: [Sk1er](https://github.com/Sk1er)
